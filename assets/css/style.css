@@ -1,11 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 .container{
     width: 100%;
     max-width: 1140px;
     margin: auto;
+}
+.corpo{
+    background-color: #F9F9F9;
+    padding: 60px 30px 30px 30px;
+    height: calc(100vh - 60px);
+
+}
+.cabecalho{
+    display:grid;
+    grid-template-columns: 1fr;
+    height: 60px;
+    background-color: #DDDDDD;
+}
+
+
+.left{
+    color: #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-busca{
+    display: flex;
+    justify-content: center;
+}
+.busca input{
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 3px;
+}
+.busca button{
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.pais{
+    display: flex;
+    color: #707070;
+}
+.pais h1{
+    margin-right: 10px;
+}
+
+.cards{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 10px;
+}
+.confirmados,.ativos,.recuperados,.mortes{
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    height: 150px;
+    font-size: 14px;
+}
+.confirmados{
+    background-color: #FEB683;
+}
+.ativos{
+    background-color: #3CCBF6;
+}
+.recuperados{
+    background-color: #0CED7E;
+}
+.mortes{
+    background-color: #F01400;
 }

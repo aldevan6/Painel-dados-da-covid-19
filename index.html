@@ -11,14 +11,46 @@
 
 <body>
     <header>
-        <div class="container">
-            <div class="left">...</div>
-            <div class="right">...</div>
+        <div class="container cabecalho">
+            <div class="left">
+                <h1>Dados da Covid-19</h1>
+            </div>
         </div>
     </header>
     <main>
-        <section>
+        <section class="container corpo">
+            
+            <div class="form-busca">
+                <form class="busca">
+                    <input type="search" id="searchInput" placeholder="Digite o nome do país" />
+                    <button>Buscar</button>
+                </form>
+            </div>
 
+            <div class="pais">
+                <h1>País:</h1>
+                <div class="nome-pais">...</div>
+            </div>
+
+            <div class="container cards">
+                <div class="confirmados">
+                    <h2>Total de confirmados</h2>
+                    <span class="totalConf">...</span>
+                </div>
+                <div class="ativos">
+                    <h2>Ativos</h2>
+                    <span class="totalAtivo">...</span>
+                </div>
+                <div class="recuperados">
+                    <h2>Recuperados</h2>
+                    <span class="totalRec">...</span>
+                </div>
+                <div class="mortes">
+                    <h2>Mortes</h2>
+                    <span class="totalMort">...</span>
+                </div>
+            </div>
+        
         </section>
     </main>
     
