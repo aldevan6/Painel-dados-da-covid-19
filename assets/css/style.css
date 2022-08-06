@@ -47,6 +47,10 @@
     border-radius: 3px;
     padding: 5px;
 }
+.busca button:hover{
+    background-color: #afafaf;
+    color:#F9F9F9;
+}
 
 .pais{
     display: flex;
